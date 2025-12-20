@@ -1,11 +1,11 @@
-let a = 3;
-let b = 5;
-let listado = [];
-let i = a;
+const a = 2;
+const b = 5;
+const lista = [];
 
-while (i <= b) { 
-  listado.push(i); 
-  i++;
-}
 
-console.log(listado);
+for (i = a ; a <= b  ; i++) {
+
+  console.log(i)
+
+};
+
